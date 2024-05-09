@@ -11,5 +11,10 @@ namespace TrilhaApiDesafio.Context
         }
 
         public DbSet<Tarefa> Tarefas { get; set; }
+
+        internal object SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
